@@ -63,6 +63,7 @@
     padding: 0;
     background: darken($primary-color, 5);
     list-style: none;
+    font-weight: bold;
     transform: translate3d(0, -100%, 0);
     @include easeOut;
 
