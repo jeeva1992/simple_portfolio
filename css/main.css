@@ -42,6 +42,7 @@
     padding: 0;
     background: #373737;
     list-style: none;
+    font-weight: bold;
     transform: translate3d(0, -100%, 0);
     transition: all 0.5s ease-out; }
     .menu-nav.show {
@@ -180,6 +181,8 @@ main {
     background: #515151;
     padding: 0.5rem;
     border-bottom: #eece1a 5px solid; }
+    .about-info .job h6 {
+      font-size: 0.9rem; }
 
 .projects {
   display: grid;
@@ -212,6 +215,9 @@ main {
       .boxes div:hover span {
         color: #000; }
 
+#contact {
+  min-height: calc(100vh-60px); }
+
 .btn, .btn-dark, .btn-light {
   display: block;
   padding: 0.5rem 1rem;
@@ -227,14 +233,15 @@ main {
 
 .btn-light {
   background: #c4c4c4;
-  color: #fff; }
+  color: #0f0f0f; }
 
 #main-footer {
   text-align: center;
   padding: 1rem;
   background: #2b2b2b;
   color: #fff;
-  height: 60px; }
+  height: 60px;
+  bottom: 0; }
 
 @media screen and (min-width: 1171px) {
   .projects {
